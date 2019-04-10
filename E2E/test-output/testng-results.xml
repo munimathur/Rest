@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="554589" started-at="2019-04-07T09:10:17Z" finished-at="2019-04-07T09:19:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="554589" started-at="2019-04-07T09:10:17Z" finished-at="2019-04-07T09:19:32Z">
+      <class name="e2e.E2E_TESTSCENARIOS">
+        <test-method status="PASS" signature="setup()[pri:0, instance:e2e.E2E_TESTSCENARIOS@441772e]" name="setup" is-config="true" duration-ms="213" started-at="2019-04-07T14:40:17Z" finished-at="2019-04-07T14:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="marketing_offer(java.lang.String)[pri:0, instance:e2e.E2E_TESTSCENARIOS@441772e]" name="marketing_offer" duration-ms="542232" started-at="2019-04-07T14:40:18Z" description="Marketing offer about E2E API" data-provider="Testcase2" finished-at="2019-04-07T14:49:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KONG=v1/my/marketingOffers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- marketing_offer -->
+        <test-method status="PASS" signature="marketing_offer(java.lang.String)[pri:0, instance:e2e.E2E_TESTSCENARIOS@441772e]" name="marketing_offer" duration-ms="5068" started-at="2019-04-07T14:49:20Z" description="Marketing offer about E2E API" data-provider="Testcase2" finished-at="2019-04-07T14:49:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ATL=v1/my/marketingOffers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- marketing_offer -->
+        <test-method status="PASS" signature="marketing_offerscalculation(java.lang.String)[pri:0, instance:e2e.E2E_TESTSCENARIOS@441772e]" name="marketing_offerscalculation" duration-ms="789" started-at="2019-04-07T14:49:25Z" description="Marketing offer about E2E API" data-provider="Testcase3" finished-at="2019-04-07T14:49:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KONG=v1/my/marketingOffersCalculation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- marketing_offerscalculation -->
+        <test-method status="PASS" signature="marketing_offerscalculation(java.lang.String)[pri:0, instance:e2e.E2E_TESTSCENARIOS@441772e]" name="marketing_offerscalculation" duration-ms="584" started-at="2019-04-07T14:49:26Z" description="Marketing offer about E2E API" data-provider="Testcase3" finished-at="2019-04-07T14:49:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ATL=v1/my/marketingOffersCalculation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- marketing_offerscalculation -->
+        <test-method status="PASS" signature="special_offer(java.lang.String)[pri:0, instance:e2e.E2E_TESTSCENARIOS@441772e]" name="special_offer" duration-ms="2345" started-at="2019-04-07T14:49:26Z" description="special offer about E2E API" data-provider="Testcase1" finished-at="2019-04-07T14:49:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KONG=v1/my/specialOffers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- special_offer -->
+        <test-method status="PASS" signature="special_offer(java.lang.String)[pri:0, instance:e2e.E2E_TESTSCENARIOS@441772e]" name="special_offer" duration-ms="2833" started-at="2019-04-07T14:49:29Z" description="special offer about E2E API" data-provider="Testcase1" finished-at="2019-04-07T14:49:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ATL=v1/my/specialOffers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- special_offer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:e2e.E2E_TESTSCENARIOS@441772e]" name="tearDown" is-config="true" duration-ms="458" started-at="2019-04-07T14:49:32Z" finished-at="2019-04-07T14:49:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- e2e.E2E_TESTSCENARIOS -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
